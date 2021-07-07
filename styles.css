@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Header */
+
+
+.hero__banner{
+    background-image: linear-gradient(to bottom, #80808081, #80808081)   ,url(assets/pexels-edward-eyer-1066860.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero__box{
+    text-align: center;
+    height: auto;
+
+}
+
+
+.hero__box--title{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero__box--text{
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+
+
+.hero__box--button{
+    color: #fff;
+    padding: 15px 30px;
+    background-color: #fe001a;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    
+}
+
+.hero__box--button:hover{
+    color: #fe001a;
+    padding: 15px 30px;
+    background-color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.5s;
+    border: none;
+    transform: scale(1.01);
+    box-shadow: 0 3px 15px -2px rgb(99, 99, 99);
+    
+    
+}
