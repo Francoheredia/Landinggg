@@ -68,3 +68,60 @@
     
     
 }
+
+/* services styling */
+
+.services {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 70%;
+    padding-top: 80px;
+    font-family: 'Montserrat', sans-serif;
+    height: 730px;
+}
+
+.services .service{
+    width: 500px;
+    height: 570px;
+    border: 2px solid black;
+}
+
+.services .service img{
+    width: 100%;
+}
+
+.services .service h2{
+    font-size: 38px;
+    padding: 10px 15px;
+}
+
+.services .service .text{
+    padding: 10px 15px;
+}
+
+.services .service .text p{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.services .service .btn{
+    width: 160px;
+    padding: 20px 25px;
+    background: none;
+    border: 2px solid red;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0 0 15px;
+}
+
+.services .service .btn a{
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+}
+
+
+
+
+
