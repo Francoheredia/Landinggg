@@ -85,6 +85,7 @@
     width: 500px;
     height: 570px;
     border: 2px solid black;
+    margin-left: 50px;
 }
 
 .services .service img{
